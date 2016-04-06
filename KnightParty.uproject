@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{AAC370E2-42F7-06B4-E73A-1C84C34FE2DF}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "KnightParty",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

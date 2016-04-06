@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\KnightParty.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{FA6959E1-4F17-4643-98A5-D7851EA18E02}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\KnightParty.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\KnightPartyEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6B080BF5-DE5C-4EB4-A3C8-FF8A8C8728CA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\KnightParty">
+      <UniqueIdentifier>{B251ACF6-373C-4B3E-8E4D-67D7818042F0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\KnightParty\KnightParty.Build.cs">
+      <Filter>Source\KnightParty</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\KnightParty\KnightParty.cpp">
+      <Filter>Source\KnightParty</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KnightParty\KnightParty.h">
+      <Filter>Source\KnightParty</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KnightParty\MyBlueprintFunctionLibrary.cpp">
+      <Filter>Source\KnightParty</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KnightParty\MyBlueprintFunctionLibrary.h">
+      <Filter>Source\KnightParty</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KnightParty\MyHUD.cpp">
+      <Filter>Source\KnightParty</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KnightParty\MyHUD.h">
+      <Filter>Source\KnightParty</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\KnightParty\DialogueTable.h">
+      <Filter>Source\KnightParty</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\KnightParty\DialogueTable.cpp">
+      <Filter>Source\KnightParty</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
